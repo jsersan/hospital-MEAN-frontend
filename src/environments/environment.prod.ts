@@ -3,5 +3,5 @@
 // src/environments/environment.prod.ts
 export const environment = {
   production: true,
-  base_url: 'https://hospital-meanb-backend-gdvc.onrender.com/api'  // ← CAMBIAR AQUÍ
+  base_url: 'https://hospital-mean-backnew.onrender.com/api'  // ← CAMBIAR AQUÍ
 };

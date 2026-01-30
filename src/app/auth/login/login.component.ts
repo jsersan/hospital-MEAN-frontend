@@ -105,7 +105,6 @@ export class LoginComponent implements OnInit, AfterViewInit {
     try {
       console.log('Inicializando Google Sign-In...');
 
-      // Inicializar Google Identity Services
       google.accounts.id.initialize({
         client_id: '277566784792-4j8p8g31fgjnqiqem4fg2tqih1bvf3it.apps.googleusercontent.com',
         callback: (response: any) => this.handleCredentialResponse(response),
